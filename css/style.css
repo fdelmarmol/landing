@@ -1,0 +1,87 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+/* Utilities */
+body {
+  background: #faf8d7;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1 {
+  color: white ;
+  font-size: 80;
+}
+h2 {
+  text-align: center;
+  color: #00541a;
+}
+ h3{
+
+  color:white;
+  text-align:center;
+ }
+  h4, p {
+    color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: Open Sans;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.hero {
+  padding: 100px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  margin: 50 auto;
+  text-align: left;
+  height: 400px;
+
+}
+.hero p{
+  color: white;
+  margin: 50px 0px;
+  font-weight: lighter;
+  font-size: 30;
+
+}
+.container {
+  margin: 50px;
+}
+
+i {
+  height: 30px;
+}
+
+.footer {
+
+  display: box;
+  height: 200px;
+  background-color: #00541a;
+}
+.follow {
+  color: white ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+
+}
+a {
+  color: white;
+}
+.fuck{
+  margin: 30px;
+  padding-top: 50px;
+}

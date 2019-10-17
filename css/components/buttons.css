@@ -1,0 +1,15 @@
+
+.btn-cta {
+  font-weight: bolder;
+  color: white;
+  background-color: #00541a;
+  padding: 15px 25px;
+  opacity: 0.8;
+  transition: background 0.3s;
+  border-radius: 2px;
+
+}
+.btn-cta:hover {
+  opacity: 1;
+
+}
